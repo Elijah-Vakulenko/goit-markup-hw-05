@@ -507,3 +507,42 @@ footer .logo {
 .soc-icon {
   fill: #f4f4fd;
 }
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.subscribe {
+}
+
+.input-form {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: #2e2f42;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: #f4f4fd;
+}
+
+.subscribe-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+}
+.svg-subscribe {
+  fill: #f4f4fd;
+}
