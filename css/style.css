@@ -47,10 +47,15 @@ a {
 
 button {
   cursor: pointer;
+  font-family: inherit;
 }
 
 img {
   display: block;
+}
+
+input {
+  font-family: inherit;
 }
 
 /* HEADER */
@@ -515,6 +520,7 @@ footer .logo {
 }
 
 .subscribe {
+  margin-left: 80px;
 }
 
 .input-form {
@@ -524,11 +530,16 @@ footer .logo {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+  padding-left: 16px;
+}
+
+.input-form::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 200%;
   letter-spacing: 0.04em;
-  color: #f4f4fd;
+  color: #fff;
 }
 
 .subscribe-button {
