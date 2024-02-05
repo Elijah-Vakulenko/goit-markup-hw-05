@@ -490,28 +490,43 @@
         class="form-modal"
         action=""
       >
-        <label class="label-modal" for="username"
-          >Name
-          <input
-            class="input-modal"
-            type="text"
-            id="username"
-            name="username"
-          />
-        </label>
-        <label class="label-modal" for="phone-number"
-          >Phone
-          <input
-            class="input-modal"
-            type="tel"
-            id="phone-number"
-            name="phone-number"
-          />
-        </label>
-        <label class="label-modal" for="email"
-          >Email
-          <input class="input-modal" type="email" id="email" name="email" />
-        </label>
+        <div class="form-item">
+          <label class="label-modal" for="username">Name</label>
+          <div class="input-wrap">
+            <input
+              class="input-modal"
+              type="text"
+              id="username"
+              name="username"
+            />
+            <svg class="form-svg" width="18" height="18">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="form-item">
+          <label class="label-modal" for="phone-number">Phone</label>
+          <div class="input-wrap">
+            <input
+              class="input-modal"
+              type="tel"
+              id="phone-number"
+              name="phone-number"
+            />
+            <svg class="form-svg" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="form-item">
+          <label class="label-modal" for="email">Email</label>
+          <div class="input-wrap">
+            <input class="input-modal" type="email" id="email" name="email" />
+            <svg class="form-svg" width="18" height="18">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+        </div>
         <label class="label-modal" for="comment"
           >Comment
           <textarea
