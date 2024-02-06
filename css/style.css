@@ -585,12 +585,14 @@ footer .logo {
 
 .backdrop.is-hidden {
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 
 .backdrop.is-open {
   opacity: 1;
-  pointer-events: all;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .modal {
@@ -751,7 +753,7 @@ footer .logo {
   margin-bottom: 24px;
 }
 
-.checkbox {
+.checkbox:checked {
   margin-right: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -774,13 +776,17 @@ footer .logo {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-form:checked + .privacy-text .custom-checkbox {
+.checkbox:checked + .privacy-label .custom-checkbox {
   background-color: #404bbf;
   border: none;
+}
+
+.checkbox:checked + .privacy-label .custom-check-icon {
   fill: #fdfdfd;
 }
 
-.privacy-text {
+.privacy-label {
+  display: inline-block;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
