@@ -528,6 +528,7 @@ footer .logo {
 
 .input-form {
   border: 1px solid #ffffff;
+  color: #ffffff;
   border-radius: 4px;
   background-color: transparent;
   width: 264px;
@@ -539,13 +540,13 @@ footer .logo {
   letter-spacing: 0.04em;
 }
 
-/* .input-form::placeholder {
+.input-form::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: #ffffff;
-} */
+}
 
 .subscribe-button {
   display: flex;
