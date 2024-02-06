@@ -754,7 +754,7 @@ footer .logo {
   height: 16px;
 }
 
-checkbox:checked + .custom-checkbox span {
+.checkbox:checked + .custom-checkbox span {
   background-color: #404bbf;
   border: none;
 }
