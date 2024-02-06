@@ -464,7 +464,7 @@
         <div class="subscribe">
           <p class="soc-media-title">Subscribe</p>
           <form class="subscribe-form">
-            <label class="footer-label"></label>
+            <label class="footer-label">
               <input
                 class="input-form"
                 type="email"
@@ -492,9 +492,7 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="title-modal">
-          Leave your contacts and we will call you back
-        </p>
+        <p class="title-modal">Leave your contacts and we will call you back</p>
         <form
           name="feedback-form"
           autocomplete="off"
@@ -539,22 +537,28 @@
             </div>
           </div>
           <div class="textarea-box">
-            <label class="label-modal" for="user-comment"
-              >Comment</label>
+            <label class="label-modal" for="user-comment">Comment</label>
             <textarea
-                class="textarea-modal"
-                placeholder="Text input"
-                id="user-comment"
-                name="comment">
+              class="textarea-modal"
+              placeholder="Text input"
+              id="user-comment"
+              name="user-comment"
+            >
             </textarea>
           </div>
           <div class="checkbox-form">
-            <input id="user-privacy" name="user-privacy" class="checkbox visually-hidden" type="checkbox" />
-            <label class="privacy-text" for="user-privacy"><span class="custom-checkbox"
+            <input
+              id="user-privacy"
+              name="user-privacy"
+              class="checkbox visually-hidden"
+              type="checkbox"
+            />
+            <label class="privacy-text" value="true" for="user-privacy"
+              ><span class="custom-checkbox"
                 ><svg class="custom-check-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-click"></use>
-              </svg></span
-              >I accept the terms and conditions of the <a class="privacy-link" href="#">Privacy Policy</a>
+                  <use href="./images/icons.svg#icon-click"></use></svg></span
+              >I accept the terms and conditions of the
+              <a class="privacy-link" href="#">Privacy Policy</a>
             </label>
           </div>
           <button type="submit" class="button-modal">Send</button>
