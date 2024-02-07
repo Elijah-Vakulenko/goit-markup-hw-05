@@ -782,10 +782,6 @@ footer .logo {
    fill: #fdfdfd;
 }
 
-.checkbox:checked + .privacy-label .custom-check-icon {
-  fill: #fdfdfd;
-}
-
 .privacy-label {
   display: inline-block;
   font-weight: 400;
