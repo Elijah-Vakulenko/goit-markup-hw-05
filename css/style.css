@@ -779,6 +779,7 @@ footer .logo {
 .checkbox:checked + .privacy-label .custom-checkbox {
   background-color: #404bbf;
   border: none;
+   fill: #fdfdfd;
 }
 
 .checkbox:checked + .privacy-label .custom-check-icon {
